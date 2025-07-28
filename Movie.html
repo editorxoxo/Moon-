@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Just Us 💖</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <audio id="backgroundMusic" autoplay loop>
+    <source src="tum-mile.mp3" type="audio/mpeg" />
+  </audio>
+
+  <div class="hearts"></div>
+  <div class="container">
+    <img src="cats.gif" alt="Cute cats" class="cat-img" />
+    <h1>Hi Love 💌</h1>
+    <p class="message">
+      I know you've been trying your best—doing everything you can to make things work, to avoid mistakes, to grow with me.
+      And for all that effort, for your patience and your heart, I think you deserve something special.
+      So I planned a little night just for us—to remind you how truly special you are to me.
+      Let’s pause the world for a while, watch something beautiful, and just be together.
+    </p>
+
+    <h2>Pick the Movie You’d Like to Watch 🎥</h2>
+    <form id="movieForm">
+      <label><input type="radio" name="movie" value="saiyyara" /> Saiyyara</label><br/>
+      <label><input type="radio" name="movie" value="metro" /> Metro In Dino</label><br/>
+      <label><input type="radio" name="movie" value="f1" /> F1</label><br/>
+      <button type="submit">Submit</button>
+    </form>
+
+    <div id="confirmationMessage" class="hidden">
+      <p>Great choice! I can’t wait to watch it with you 💖</p>
+    </div>
+
+    <div class="countdown">
+      <h3>Our Special Night Starts In:</h3>
+      <div id="timer"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
